@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE countries SYSTEM "weather.dtd">
+<!--<!DOCTYPE countries SYSTEM "weather.dtd">-->
+<?xml-stylesheet type="text/xml" href="weather.xsl" version="1.0"?>
 <countries>
     <country name="United Kingdom">
         <cities>
