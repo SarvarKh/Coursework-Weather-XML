@@ -15,13 +15,13 @@ public class Main {
         switch (optionNumber) {
             case 1:
                 System.out.println("Producing HTML reports...");
-                String xslHtmlName = "weather_html.xsl";
+                String xslHtmlName = "weather_transform_1.xsl";
                 // Transform XML into HTML reports based on XSL
                 XMLService.transformXMLtoAnotherFileBasedOnXSL(xslHtmlName);
                 break;
             case 2:
                 System.out.println("Producing XML reports...");
-                String xslXmlName = "weather_xml.xsl";
+                String xslXmlName = "weather_transform_2.xsl";
                 // Transform XML into another XML reports based on XSL
                 XMLService.transformXMLtoAnotherFileBasedOnXSL(xslXmlName);
                 break;
