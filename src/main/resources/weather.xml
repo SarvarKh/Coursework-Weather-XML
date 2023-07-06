@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE countries SYSTEM "weather.dtd">-->
+<?xml-stylesheet type="text/xml" href="weather.xsl" version="1.0"?>
+<countries>
+    <country name="United Kingdom">
+        <cities>
+            <city name="London">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>13.0</min>
+                            <max>13.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>13.5</min>
+                            <max>14.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>13.5</min>
+                            <max>14.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>90</min>
+                            <max>92</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>83</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>74</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Dublin">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>14.0</min>
+                            <max>14.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>79</min>
+                            <max>81</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>90</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>94</min>
+                            <max>96</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>77</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Boston">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>12.0</min>
+                            <max>12.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>18.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>84</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>12.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>92</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>11.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>74</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="York">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>15.0</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>92</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>87</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>73</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Glasgow">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>17.0</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>75</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>70</min>
+                            <max>72</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>85</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>82</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>10</min>
+                            <max>11</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>68</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>21.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>75</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+        </cities>
+    </country>
+    <country name="Poland">
+        <cities>
+            <city name="Warsaw">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>13.0</min>
+                            <max>13.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>13.5</min>
+                            <max>14.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>13.5</min>
+                            <max>14.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>90</min>
+                            <max>92</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>83</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>74</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Sopot">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>15.0</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>92</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>87</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>73</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Hel">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>17.0</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>75</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>70</min>
+                            <max>72</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>85</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>82</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>10</min>
+                            <max>11</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>68</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>21.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>75</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Kraków">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>14.0</min>
+                            <max>14.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>79</min>
+                            <max>81</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>90</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>94</min>
+                            <max>96</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>77</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Gdansk">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>12.0</min>
+                            <max>12.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>18.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>84</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>12.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>92</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>11.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>74</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+        </cities>
+    </country>
+    <country name="Switzerland">
+        <cities>
+            <city name="Zürich">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>23.0</min>
+                            <max>23.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>59</min>
+                            <max>61</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>23.5</min>
+                            <max>24.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>65</min>
+                            <max>70</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>23.5</min>
+                            <max>24.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>60</min>
+                            <max>62</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>24.5</min>
+                            <max>25.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>63</min>
+                            <max>68</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>26.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>65</min>
+                            <max>70</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>24.5</min>
+                            <max>25.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>63</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>70</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Bern">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>15.0</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>92</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>87</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>73</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Lucerne">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>14.0</min>
+                            <max>14.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>79</min>
+                            <max>81</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>90</min>
+                            <max>95</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>87</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>94</min>
+                            <max>96</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>77</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Geneva">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>17.0</min>
+                            <max>17.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>18.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>75</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>17.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>70</min>
+                            <max>72</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>18.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>85</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>81</min>
+                            <max>82</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>10</min>
+                            <max>11</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>68</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>19.5</min>
+                            <max>21.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>75</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Locarno">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>12.0</min>
+                            <max>12.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>89</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>16.5</min>
+                            <max>18.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>84</min>
+                            <max>91</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>12.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>92</min>
+                            <max>94</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>11.5</min>
+                            <max>12.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>86</min>
+                            <max>88</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>15.5</min>
+                            <max>16.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>85</min>
+                            <max>90</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>14.5</min>
+                            <max>15.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>91</min>
+                            <max>93</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>17.5</min>
+                            <max>19.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>74</min>
+                            <max>79</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+        </cities>
+    </country>
+    <country name="Türkiye">
+        <cities>
+            <city name="Istanbul">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>23.0</min>
+                            <max>23.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>59</min>
+                            <max>61</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>23.5</min>
+                            <max>24.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>55</min>
+                            <max>60</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>23.5</min>
+                            <max>24.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>50</min>
+                            <max>52</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>24.5</min>
+                            <max>25.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>53</min>
+                            <max>58</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>26.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>55</min>
+                            <max>60</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>24.5</min>
+                            <max>25.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>63</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>54</min>
+                            <max>59</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Izmir">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>25.0</min>
+                            <max>25.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>59</min>
+                            <max>51</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>26.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>62</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>14</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>26.5</min>
+                            <max>27.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>65</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>26.5</min>
+                            <max>27.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>56</min>
+                            <max>57</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>15</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>26.5</min>
+                            <max>27.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>55</min>
+                            <max>60</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>14</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>24.5</min>
+                            <max>25.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>63</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>71</min>
+                            <max>73</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>12</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Bursa">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>27.0</min>
+                            <max>27.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>69</min>
+                            <max>74</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>28.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>65</min>
+                            <max>69</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>27.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>60</min>
+                            <max>62</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>12</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>28.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>65</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>62</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>10</min>
+                            <max>11</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>29.5</min>
+                            <max>30.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>51</min>
+                            <max>58</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>11</min>
+                            <max>13</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>29.5</min>
+                            <max>31.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>61</min>
+                            <max>65</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>13</min>
+                            <max>16</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Konya">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>24.0</min>
+                            <max>24.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>59</min>
+                            <max>61</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>26.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>65</min>
+                            <max>70</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>28.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>50</min>
+                            <max>55</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>28.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>56</min>
+                            <max>58</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>57</min>
+                            <max>63</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>26.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>44</min>
+                            <max>46</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>28.5</min>
+                            <max>20.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>47</min>
+                            <max>49</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+            <city name="Ankara">
+                <days>
+                    <day name="Monday">
+                        <temperature unit="°C">
+                            <min>24.0</min>
+                            <max>24.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>69</min>
+                            <max>71</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Tuesday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>26.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>55</min>
+                            <max>60</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>16</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Wednesday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>27.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>50</min>
+                            <max>55</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Thursday">
+                        <temperature unit="°C">
+                            <min>25.5</min>
+                            <max>28.0</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>56</min>
+                            <max>58</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Friday">
+                        <temperature unit="°C">
+                            <min>27.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>57</min>
+                            <max>58</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Saturday">
+                        <temperature unit="°C">
+                            <min>26.5</min>
+                            <max>29.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>54</min>
+                            <max>56</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>15</min>
+                            <max>17</max>
+                        </wind-speed>
+                    </day>
+                    <day name="Sunday">
+                        <temperature unit="°C">
+                            <min>28.5</min>
+                            <max>30.5</max>
+                        </temperature>
+                        <humidity unit="%">
+                            <min>57</min>
+                            <max>59</max>
+                        </humidity>
+                        <wind-speed unit="km/h">
+                            <min>17</min>
+                            <max>19</max>
+                        </wind-speed>
+                    </day>
+                </days>
+            </city>
+        </cities>
+    </country>
+</countries>
