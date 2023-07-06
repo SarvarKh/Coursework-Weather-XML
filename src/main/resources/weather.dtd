@@ -1,0 +1,19 @@
+<!ELEMENT countries (country+) >
+<!ELEMENT country (cities) >
+<!ELEMENT cities (city+) >
+<!ELEMENT city (days) >
+<!ELEMENT days (day+) >
+<!ELEMENT day (temperature, humidity, wind-speed) >
+<!ELEMENT temperature (min, max) >
+<!ELEMENT min (#PCDATA) >
+<!ELEMENT max (#PCDATA) >
+<!ELEMENT humidity (min, max)>
+<!ELEMENT wind-speed (min, max)>
+
+
+<!ATTLIST country name CDATA #REQUIRED>
+<!ATTLIST city name CDATA #REQUIRED>
+<!ATTLIST day name CDATA #REQUIRED>
+<!ATTLIST temperature unit CDATA #REQUIRED>
+<!ATTLIST humidity unit CDATA #REQUIRED>
+<!ATTLIST wind-speed unit CDATA #REQUIRED>
