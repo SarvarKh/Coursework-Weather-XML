@@ -1,21 +1,11 @@
 package org.example.dao;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.stream.StreamSource;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.StringReader;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class XQueryCategoryDAO {
@@ -35,59 +25,19 @@ public class XQueryCategoryDAO {
         Statement statement = conn.createStatement();
 
         // Execute the statement to select the XML data.
-        String sql = "SELECT * FROM weather";
+        String sql = "SELECT xml_data FROM weather";
         ResultSet resultSet = statement.executeQuery(sql);
 
-        // Create the `countriesDb.xml` file and add content select from DB
-        createCountryDbXML(resultSet);
+        // Iterate over the results and serialize each row to an XML document
+        File file = new File("src/main/resources/weatherQueriedFromDb.xml");
+        FileWriter fileWriter = new FileWriter(file);
+        while (resultSet.next()) {
+            String xmlData = resultSet.getString("xml_data");
+            fileWriter.write(xmlData);
+        }
+        fileWriter.close();
 
         // Close the database connection
         conn.close();
     }
-
-    private static void createCountryDbXML(ResultSet resultSet) throws IOException, ParserConfigurationException, SQLException {
-        // Create the `countries.xml` file.
-        File file = new File("countriesDb.xml");
-        FileWriter writer = new FileWriter(file);
-
-        // Create a DOM document.
-        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-        Document document = documentBuilder.newDocument();
-
-        // Create the root element.
-        Element rootElement = document.createElement("countries");
-        document.appendChild(rootElement);
-
-        // Iterate over the result set and add countries to the XML document.
-        while (resultSet.next()) {
-            String xmlData = resultSet.getString("xml_data");
-            System.out.println(xmlData);
-            Element countriesElement = document.createElement("countries");
-            rootElement.appendChild(countriesElement);
-
-            // Add the country name to the XML document.
-            Element nameElement = document.createElement("name");
-            nameElement.appendChild(document.createTextNode(xmlData));
-            countriesElement.appendChild(nameElement);
-
-            // Add the city names to the XML document.
-            String[] cities = xmlData.split(",");
-            for (String city : cities) {
-                Element cityElement = document.createElement("city");
-                countriesElement.appendChild(cityElement);
-
-                // Add the city name to the XML document.
-                Element cityNameElement = document.createElement("name");
-                cityNameElement.appendChild(document.createTextNode(city));
-                cityElement.appendChild(cityNameElement);
-            }
-        }
-
-        // Write the XML document to the file.
-        writer.write(document.toString());
-        writer.close();
-    }
-
-
 }
