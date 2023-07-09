@@ -12,6 +12,9 @@ public class Country {
         this.cities = new ArrayList<>();
     }
 
+    public Country() {
+    }
+
     public void addCity(City city) {
         this.cities.add(city);
     }

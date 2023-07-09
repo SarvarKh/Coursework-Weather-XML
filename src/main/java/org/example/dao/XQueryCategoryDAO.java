@@ -1,8 +1,17 @@
 package org.example.dao;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.StringReader;
 import java.sql.*;
 import java.util.ArrayList;
@@ -14,7 +23,7 @@ public class XQueryCategoryDAO {
     private static String dbUserName = "postgres";
     private static String dbPassword = null;
 
-    public static void getCategories() throws SQLException, ClassNotFoundException, TransformerException {
+    public static void getCategories() throws SQLException, ClassNotFoundException, TransformerException, IOException, ParserConfigurationException {
         // Connect to the Postgresql database
         Class.forName("org.postgresql.Driver");
         System.out.println("Postgres JDBC Driver Registered!");
@@ -29,23 +38,56 @@ public class XQueryCategoryDAO {
         String sql = "SELECT * FROM weather";
         ResultSet resultSet = statement.executeQuery(sql);
 
-        // Process the result set to get the XML data.
-        while (resultSet.next()) {
-            // Get the XML data as a string.
-            String xmlData = resultSet.getString("xml_data");
-
-            // Transform the XML data into a document.
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            StreamSource source = new StreamSource(new StringReader(xmlData));
-            StreamResult result = new StreamResult(System.out);
-            transformer.transform(source, result);
-        }
-
-        System.out.println("XML data were selected and transformed....");
+        // Create the `countriesDb.xml` file and add content select from DB
+        createCountryDbXML(resultSet);
 
         // Close the database connection
         conn.close();
     }
+
+    private static void createCountryDbXML(ResultSet resultSet) throws IOException, ParserConfigurationException, SQLException {
+        // Create the `countries.xml` file.
+        File file = new File("countriesDb.xml");
+        FileWriter writer = new FileWriter(file);
+
+        // Create a DOM document.
+        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+        Document document = documentBuilder.newDocument();
+
+        // Create the root element.
+        Element rootElement = document.createElement("countries");
+        document.appendChild(rootElement);
+
+        // Iterate over the result set and add countries to the XML document.
+        while (resultSet.next()) {
+            String xmlData = resultSet.getString("xml_data");
+            System.out.println(xmlData);
+            Element countriesElement = document.createElement("countries");
+            rootElement.appendChild(countriesElement);
+
+            // Add the country name to the XML document.
+            Element nameElement = document.createElement("name");
+            nameElement.appendChild(document.createTextNode(xmlData));
+            countriesElement.appendChild(nameElement);
+
+            // Add the city names to the XML document.
+            String[] cities = xmlData.split(",");
+            for (String city : cities) {
+                Element cityElement = document.createElement("city");
+                countriesElement.appendChild(cityElement);
+
+                // Add the city name to the XML document.
+                Element cityNameElement = document.createElement("name");
+                cityNameElement.appendChild(document.createTextNode(city));
+                cityElement.appendChild(cityNameElement);
+            }
+        }
+
+        // Write the XML document to the file.
+        writer.write(document.toString());
+        writer.close();
+    }
+
+
 }
