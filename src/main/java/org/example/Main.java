@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.controller.ConsoleController;
+import org.example.dao.XQueryCategoryDAO;
 import org.example.service.XMLService;
 
 public class Main {
@@ -8,10 +9,15 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Starting application...\n-=-=-=-=-*****-=-=-=-=-");
-        // 0. Select options from Menu
+
+        // 0. Accessing database to select XML data with XQuery...
+        System.out.println("> Accessing database to select XML data with XQuery...");
+        XQueryCategoryDAO.getCategories();
+
+        // 1. Select options from Menu
         Integer optionNumber = ConsoleController.getOptionNumber();
 
-        // 1. Transform XML into another file based on XSL
+        // 2. Transform XML into another file based on XSL
         switch (optionNumber) {
             case 1:
                 System.out.println("Producing HTML reports...");
