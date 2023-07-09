@@ -21,20 +21,6 @@ public class Main {
         System.out.println("> Creating XML file based on selected xml_data from database...\n" +
                 "> New XML file has been created at 'src/main/resources/weatherQueriedFromDb.xml'");
 
-        // Execute the XQuery query.
-        String query = "for $country in doc('countries.xml')/countries" +
-                "for $city in $country/cities" +
-                "for $day in $city/days" +
-                "where $day/name = 'Monday'" +
-                "return $day/temperature";
-
-        DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
-        Document doc = docBuilder.parse(new File("src/main/resources/weather.xml"));
-
-        String result = XMLService.xquery(query, doc);
-
-
         // 1. Select options from Menu
         Integer optionNumber = ConsoleController.getOptionNumber();
 

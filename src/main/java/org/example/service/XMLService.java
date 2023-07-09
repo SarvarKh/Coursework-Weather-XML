@@ -30,11 +30,9 @@ public class XMLService {
         TransformerFactory factory = TransformerFactory.newInstance();
         Transformer transformer = factory.newTransformer(new StreamSource(xslFilePath));
 
-        String outputType = defineOutPutType(xslFilePath, null);
-
-        String outputFile = "outputOf"+xslFileName.replaceAll(".xsl", "")+"."+outputType;
+        String outputFile = "outputWeather.html";
         transformer.transform(new StreamSource(xmlFilePath), new StreamResult(new FileOutputStream(new File(outputFile))));
-        System.out.println("=> "+ xslFileName +" have been transformed into another format.");
+        System.out.println("=> "+ xslFileName +" have been transformed into " + outputFile);
         System.out.println("=> "+ outputFile +" file has been created in project's root directory");
     }
 
@@ -56,7 +54,6 @@ public class XMLService {
         }
         return outputType;
     }
-
 
     public static String xquery(String query, Document doc) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         // Create a XPath factory
