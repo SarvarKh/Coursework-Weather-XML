@@ -1,5 +1,11 @@
 package org.example.dao;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
 import java.io.File;
@@ -31,10 +37,12 @@ public class XQueryCategoryDAO {
         // Iterate over the results and serialize each row to an XML document
         File file = new File("src/main/resources/weatherQueriedFromDb.xml");
         FileWriter fileWriter = new FileWriter(file);
+        String resultXmlData = "";
         while (resultSet.next()) {
-            String xmlData = resultSet.getString("xml_data");
-            fileWriter.write(xmlData);
+            String xmlData = "    " + resultSet.getString("xml_data") + "\n";
+            resultXmlData += xmlData;
         }
+        fileWriter.write("<countries>\n"+resultXmlData +"</countries>");
         fileWriter.close();
 
         // Close the database connection

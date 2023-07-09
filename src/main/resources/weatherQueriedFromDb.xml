@@ -1,4 +1,5 @@
-<country name="United Kingdom">
+<countries>
+    <country name="United Kingdom">
         <cities>
             <city name="London">
                 <days>
@@ -511,7 +512,8 @@
                 </days>
             </city>
         </cities>
-    </country><country name="Poland">
+    </country>
+    <country name="Poland">
         <cities>
             <city name="Warsaw">
                 <days>
@@ -1024,7 +1026,8 @@
                 </days>
             </city>
         </cities>
-    </country><country name="Switzerland">
+    </country>
+    <country name="Switzerland">
         <cities>
             <city name="Zürich">
                 <days>
@@ -1537,7 +1540,8 @@
                 </days>
             </city>
         </cities>
-    </country><country name="Türkiye">
+    </country>
+    <country name="Türkiye">
         <cities>
             <city name="Istanbul">
                 <days>
@@ -2051,3 +2055,4 @@
             </city>
         </cities>
     </country>
+</countries>
