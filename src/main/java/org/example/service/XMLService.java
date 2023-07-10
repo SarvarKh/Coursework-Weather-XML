@@ -2,11 +2,11 @@ package org.example.service;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
@@ -14,7 +14,6 @@ import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.PrintWriter;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -24,7 +23,7 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 public class XMLService {
-    public static void transformXMLtoAnotherFileBasedOnXSL(String xslFileName) throws TransformerException, FileNotFoundException {
+    public static void transformXMLtoHtmlFileBasedOnXSL(String xslFileName) throws TransformerException, FileNotFoundException {
         String xslFilePath = "src/main/resources/"+xslFileName;
         String xmlFilePath = "src/main/resources/weather.xml";
         TransformerFactory factory = TransformerFactory.newInstance();
@@ -92,5 +91,36 @@ public class XMLService {
         writer.flush();
 
         return result.toString();
+    }
+
+    public static void transformXMLtoAnotherFileBasedOnXQuery(String xmlFile, String xquery) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        // The input XML file
+        File inputFile = new File(xmlFile);
+
+        // The output XML file
+        File outputFile = new File("output.xml");
+
+        // The XQuery query
+        xquery = "//country";
+
+        // Create a DOM parser
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+
+        // Parse the input XML file
+        Document doc = builder.parse(inputFile);
+
+        // Create an XPath object
+        XPath xpath = XPathFactory.newInstance().newXPath();
+
+        // Evaluate the XQuery query
+        NodeList result = (NodeList) xpath.evaluate(xquery, doc, XPathConstants.NODESET);
+
+        // Write the output XML file
+        FileWriter writer = new FileWriter(outputFile);
+        for (int i = 0; i < result.getLength(); i++) {
+            writer.write(result.item(i).toString());
+        }
+        writer.close();
     }
 }

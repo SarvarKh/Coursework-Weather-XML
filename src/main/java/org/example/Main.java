@@ -25,22 +25,7 @@ public class Main {
         Integer optionNumber = ConsoleController.getOptionNumber();
 
         // 2. Transform XML into another file based on XSL
-        switch (optionNumber) {
-            case 1:
-                System.out.println("Producing HTML reports...");
-                String xslHtmlName = "weather_transform_1.xsl";
-                // Transform XML into HTML reports based on XSL
-                XMLService.transformXMLtoAnotherFileBasedOnXSL(xslHtmlName);
-                break;
-            case 2:
-                System.out.println("Producing XML reports...");
-                String xslXmlName = "weather_transform_2.xsl";
-                // Transform XML into another XML reports based on XSL
-                XMLService.transformXMLtoAnotherFileBasedOnXSL(xslXmlName);
-                break;
-            default:
-                System.out.println("Sorry, this option is not available currently");
-        }
+        ConsoleController.transformToAnotherFile(optionNumber);
 
         System.out.println("Ending application...\n-=-=-=-=-*****-=-=-=-=-");
     }
